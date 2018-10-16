@@ -1,0 +1,91 @@
+* {
+  box-sizing; border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #343434;
+  color: #16b1b5;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 200;
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+
+header {
+  padding: 40px;
+}
+
+h1 {
+  font-size: 20px;
+  line-height: .8; /*wanted my H1 a little smaller*/
+}
+
+p {
+  margin: 1em 0;
+}
+
+header h1 + p { /*this is where I got creative - with some help, but it works*/
+  font-size: 36px;
+}
+
+nav {
+  padding: 1em 0;
+  font-size: 16px;
+  text-align: center;
+}
+
+a {
+  color: white;
+  margin: 20px;
+  padding: 20px;
+  text-transform: uppercase;
+  text-decoration: none;
+  border: 1px solid white;
+}
+
+#work {
+    background-color: #16b1b5;
+    padding: 40px;
+    color: white;
+    column-count: 2
+}
+
+#work img, #hobbies img {
+    max-width: 300px;
+    float: right;
+    margin-right: 60px
+}
+
+#hobbies {
+  padding: 40px;
+  column-count: 2;
+}
+
+#gallery {
+background-color: #16b1b5;
+color: white;
+column-count:3;
+column-gap: 0;
+}
+
+div {
+break-inside: avoid;
+}
+
+img {
+  width: 100%;
+  display: block;
+  /*when I added: height: calc(100vw / 3);
+  object-fit: cover;
+  object-position: top;
+  it messed up my GA Logo - so I removed it */
+}
+
+footer {
+  text-align: center;
+}
+
+footer h3 { /* wanted more space -  too look better*/
+  padding: 2em 0;
+}
