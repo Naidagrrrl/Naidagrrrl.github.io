@@ -1,5 +1,5 @@
 * {
-  box-sizing; border-box;
+  box-sizing: border-box;
   margin: 0;
 }
 
@@ -63,14 +63,22 @@ a {
 }
 
 #gallery {
-background-color: #16b1b5;
-color: white;
-column-count:3;
-column-gap: 0;
+  background-color: #16b1b5;
+  color: white;
+}
+
+#gallery h3 {
+  padding: 20px;
+  margin: 20px;
+}
+
+#gallery div {
+  column-count:3;
+  column-gap: 0;
 }
 
 div {
-break-inside: avoid;
+  break-inside: avoid;
 }
 
 img {

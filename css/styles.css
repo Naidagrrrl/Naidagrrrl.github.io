@@ -1,0 +1,13 @@
+* {
+  box-sizing; border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #A5E561;
+  color: #000000;
+  font-family: 'Alfa Slab One', cursive;
+  font-weight: 200;
+  font-size: 50px;
+  scroll-behavior: smooth;
+}
