@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<!-- saved from url=(0089)file:///Users/naida/Desktop/FEWD/Naidagrrrl.github.io/Homework%20-%20Class%204/index.html -->
+<html lang="en" dir="ltr"><head style="
+    background: aquamarine;
+"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Relaxr Blog Page</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      html, body {
+        margin: 0;
+      }
+      body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-columns: 65% 35%;
+        grid-template-rows: 10vh auto minmax(20vh, 30vh);
+        grid-template-areas:
+        "header header"
+        "fred ethel"
+        "footer footer";
+      }
+         header {
+           background-color: turquoise;
+           grid-area: header;
+           grid-column: start / end;
+           padding: 1rem;
+         }
+         main {
+           background-color: coral;
+           grid-area: fred;
+           padding: 1rem;
+         }
+         aside {
+           background-color: yellowgreen;
+           grid-area: ethel;
+         }
+         footer {
+           grid-area: footer;
+           background-color: hotpink;
+           width: 100%;
+         }
+       </style>
+     </head>
+     <body>
+       <header>
+         header
+       </header>
+       <main>
+         main
+         <article></article>
+       </main>
+       <aside>
+         aside
+       </aside>
+       <footer>
+         footer
+       </footer>
+     
+   
+</body></html>

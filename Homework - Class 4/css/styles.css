@@ -1,0 +1,152 @@
+* {
+  box-sizing; border-box;
+  margin: 0;
+}
+
+html {
+  background-color: #f0efef;
+  color: #121212;
+  font-family:'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  scroll-behavior: smooth;
+}
+
+html, body {
+  margin: 0;
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  grid-template-rows: 10vh auto minmax(20vh, 30vh);
+  grid-template-areas:
+  "header header"
+  "main aside"
+  "footer footer";
+}
+
+header {
+  background-color: #033048;
+  grid-area: header;
+  padding: 1rem;
+  color: #f9e42e;
+
+}
+header img {
+  width: 100px;
+  margin-left: 1em;
+}
+header div {
+  display: inline-block;
+  float: right;
+  margin-right: 30px;
+  font-weight: 600;
+}
+main {
+  background-color: #f0efef;
+  grid-area: main;
+  padding: 1rem
+  color: #121212;
+}
+
+main section h1 {
+  font-weight: 600;
+  margin: 1em;
+}
+
+main section img {
+  max-width: 80%;
+  margin: 1em;
+}
+
+main section article {
+  font-weight: 300;
+  margin: 2em;
+  padding-left: 1em;
+  padding-bottom: 1em;
+}
+
+.first-letter {
+  font-size: 80px;
+  line-height: 80px;
+  font-weight: 900;
+  float:left;
+}
+
+main section div {
+  font-weight: 600;
+  margin: 1.1em;
+  border-bottom-style: solid;
+  border-bottom-color: #121212;
+  padding-bottom: 1em;
+}
+
+aside {
+  background-color: #f0efef;
+  grid-area: aside;
+  color: #121212
+}
+
+aside ul {
+  padding-left: 1em;
+  margin-left: 1em;
+  display: inline-block;
+  font-weight: 900;
+
+}
+aside li {
+  list-style-type: none;
+  font-weight: 300;
+}
+
+aside div {
+  margin-left: 1em;
+  padding-top: 2em;
+  font-weight:900;
+}
+
+aside article {
+  margin-left: 1em;
+  padding-left: 1.5em;
+  padding-right: 2em;
+  padding-top: 2em;
+}
+
+div.learn {
+  margin-left: 1em;
+  padding-top: 2em;
+  font-weight:600;
+}
+
+.ad {
+  border-radius: 1px;
+  border-style: solid;
+  border-color: #0000;
+  width: 10px;
+  height: 60px;
+  background-color: #0000;
+}
+
+footer {
+  grid-area: footer;
+  background-color: #f9e42e;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+}
+
+footer button {
+  background-color: #033048;
+  color: #ffff;
+  font-size: 24px;
+  border-radius: 10px;
+  padding: 12px; 
+  margin-top: 30px;
+}
+
+section h1 {
+  padding-left;
+  font-weight: 600;
+}
