@@ -4,10 +4,30 @@
 }
 
 html {
-  background-color: #A5E561;
-  color: #000000;
-  font-family: 'Abril Fatface', cursive;
-  font-weight: 200;
-  font-size: 50px;
+  background-color: #c9cdc7;
+  color: 	#364345;
+  font-family: 'Lato', sans-serif;
+  font-family: 'Merriweather', serif;
   scroll-behavior: smooth;
+}
+
+header {
+  font-family: Merriweather, serif;
+  background-color: #84b4c0;
+  padding: 1em;
+  font-size: 24px;
+  text-align: center;
+  line-height: .5;
+  font-weight: 200;
+  margin: 2em;
+  border-style: solid;
+  border-color: #3a6e7c;
+  border-radius: 20px;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 24px;
+  padding: 30px;
+  line-height: 2;
 }
