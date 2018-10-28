@@ -57,7 +57,7 @@ header a {
   display: block;
   text-align: right;
   padding: 1rem 2rem;
-  border-bottom: 1px var(--bg-gray) solid;
+  border-bottom: 1px var(--bg-gray);
   background-color: var(--lt-gray);
 }
 

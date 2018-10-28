@@ -32,3 +32,10 @@ body {
   padding: 30px;
   line-height: 2;
 }
+
+aside {
+  font-family: 'Lato', sans-serif;
+  font size: 20px;
+  text-align: center;
+  margin: 1rem;
+}
