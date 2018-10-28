@@ -8,6 +8,7 @@ html {
   color: 	#364345;
   font-family: 'Lato', sans-serif;
   font-family: 'Merriweather', serif;
+  text-decoration: none;
   scroll-behavior: smooth;
 }
 
